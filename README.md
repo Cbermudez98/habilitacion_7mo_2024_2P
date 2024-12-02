@@ -84,12 +84,12 @@ Diseña una API utilizando **Nest.js**, **TypeORM**, y **class-validator** para 
      - **Cuerpo de la solicitud**:  
        ```json
        {
-         "card_number": "1234567812345678",
-         "credit_limit": 5000.00
+         "numero_tarjeta": "1234567812345678",
+         "limite_credito": 5000.00
        }
        ```  
-       - `card_number`: Número de tarjeta de crédito (cadena de 16 dígitos).  
-       - `credit_limit`: Límite de crédito de la tarjeta (número decimal).  
+       - `numero_tarjeta`: Número de tarjeta de crédito (cadena de 16 dígitos).  
+       - `limite_credito`: Límite de crédito de la tarjeta (número decimal).  
 
 7. **Realizar una compra con una tarjeta de crédito**  
    - **Método**: `POST`  
@@ -140,8 +140,8 @@ Diseña una API utilizando **Nest.js**, **TypeORM**, y **class-validator** para 
      Content-Type: application/json
 
      {
-       "card_number": "1234567812345678",
-       "credit_limit": 5000.00
+       "numero_tarjeta": "1234567812345678",
+       "limite_credito": 5000.00
      }
      ```
 
